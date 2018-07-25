@@ -1,6 +1,6 @@
 <?php
 
-function veritabanikontrol($sistem="")
+function databasecheck($sistem="")
 	{
 		if(empty($sistem)){
 			return "No data";
