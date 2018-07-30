@@ -8,6 +8,9 @@ function veritabanikontrol($sistem="")
 		if(!isset($sistem)){
 			return "Veri yok.";
 		}
+		if(!is_array($sistem){
+			return "Veri yok.";
+		}
 		if(!isset($sistem[0])){$sistem[0]="";}
 		if(!isset($sistem[1])){$sistem[1]="";}
 		if(!isset($sistem[2])){$sistem[2]="";}
