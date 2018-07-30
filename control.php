@@ -8,6 +8,9 @@ function databasecheck($sistem="")
 		if(!isset($sistem)){
 			return "No data";
 		}
+		if(!is_array($sistem){
+			return "No data";
+		}
 		if(!isset($sistem[0])){$sistem[0]="";}
 		if(!isset($sistem[1])){$sistem[1]="";}
 		if(!isset($sistem[2])){$sistem[2]="";}
